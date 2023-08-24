@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+         <link rel = "stylesheet" href = "gorseller.css">
+
+
+
+
+        
+    </head>
+
+
+    <body>
+        <div class="todolist">
+    <h2>TO DO LİST</h2>
+    <input id="myInput" type="text" placeholder="listeyi olustur...">
+    <button id ="tikla">EKLE</button>
+    <ul id="listele"></ul>
+</div>
+
+<script>
+
+
+let myInput = document.getElementById("myInput");
+let tikla = document.getElementById("tikla");
+let listele = document.getElementById("listele");
+
+
+tikla.addEventListener("click",function(){
+   let listeler = myInput.value;
+   if( listeler !== ""){ 
+    let lists = document.createElement("li");
+    lists.textContent = listeler;
+    listele.appendChild(lists);
+    myInput.value = "";
+    }
+})
+</script>
+
+    </body>
+</html>

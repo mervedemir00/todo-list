@@ -1,0 +1,48 @@
+.todolist{
+    background-color: blueviolet;
+    height: 400px;
+    width: 700px;
+    border: 3px solid purple;
+    margin:auto;
+    
+}
+ul li{  
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+ul li:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+#myInput{
+    width:50%;
+    height: 30px;
+    text-align: center;
+    margin-left: 6%;
+    font-weight: 700;
+    border: 2px solid rgb(36, 21, 59);
+}
+h2{
+    text-align: center;
+    color: rgb(36, 21, 59);
+    font-size: 50px;
+    
+}
+#tikla{
+    width: 160px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(36, 21, 59);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(36, 21, 59);
+}
+#tikla:hover{
+    background-color: rgb(36, 21, 59);
+    color: rgb(255, 255, 255);
+}
